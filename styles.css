@@ -1,2 +1,65 @@
+body {
+            margin: 0;
+            font-family: Arial, Helvetica, sans-serif;
+            background-color: #0b0f1a;
+            color: #ffffff;
+            line-height: 1.6;
+        }
 
-/* Your CSS Code here. */
+        header {
+            background: linear-gradient(90deg, #1f2a44, #3b4a7a);
+            padding: 20px;
+            text-align: center;
+            font-size: 32px;
+            font-weight: bold;
+        }
+
+        nav {
+            background-color: #141a2e;
+            padding: 15px;
+            text-align: center;
+        }
+
+        nav a {
+            color: #ffd369;
+            text-decoration: none;
+            margin: 0 15px;
+            font-size: 18px;
+        }
+
+        nav a:hover {
+            text-decoration: underline;
+        }
+
+        main {
+            padding: 20px;
+        }
+
+        .summary {
+            margin-bottom: 25px;
+            background-color: #1a2140;
+            padding: 15px;
+            border-radius: 8px;
+        }
+
+        section {
+            margin-bottom: 25px;
+            background-color: #222a52;
+            padding: 15px;
+            border-radius: 8px;
+        }
+
+        aside {
+            background-color: #141a2e;
+            padding: 15px;
+            border-left: 5px solid #ffd369;
+            margin-bottom: 25px;
+        }
+
+        footer {
+            background-color: #0f1426;
+            padding: 15px;
+            text-align: center;
+            font-size: 14px;
+            color: #cccccc;
+        }
